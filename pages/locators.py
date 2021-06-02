@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class BasketPageLocators():
-    BASKET_IS_EMPTY_MESSAGE = (By.CSS_SELECTOR, "#content_inner > p")
+    BASKET_IS_EMPTY_MESSAGE = (By.CSS_SELECTOR, "#content_inner  p")
     ITEMS_IN_BASKET = (By.CSS_SELECTOR, "form.basket_summary")
 
 
